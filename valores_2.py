@@ -1,4 +1,4 @@
-custo = float(130)
+custo = float
 
 def soma_imposto(sm):
     global custo

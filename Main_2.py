@@ -1,3 +1,5 @@
-import valores_2
+import valores_2 as bs2
 
-print(f"O preço final do produto é de: R${valores_2.soma_imposto('sm')}")
+bs2.custo = float(input(f"Insira o preço: "))
+
+print(f"O preço final do produto, com impostos, é de: R${bs2.soma_imposto('sm')}")
